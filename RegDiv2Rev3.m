@@ -1,7 +1,5 @@
 %% Load Images %%%
 clear all;clc;close all;
-clear all; %test
-clear all; %test2
 ProbeFiles = dir('C:\Users\che7oz\Desktop\1x2x3x6x 2493 9312 bcd mrna\w1118\*_c4.jpg');
 for i=1:length(ProbeFiles)
 ProbeI=imread(ProbeFiles(i).name);
